@@ -1,0 +1,23 @@
+runoff
+create an election simulation whereby the second and third votes in a ballot also count if a candidate is out of the vote.
+
+we need;
+candidates. Max 9
+voters. Max 100
+votes.
+
+candidates and voters contained in a struct.
+the eliminated in the same struct.
+voters: integer
+candidate count: integer
+
+need to implement:
+    bool 'vote'; integer voter, integer rank, string name
+    void 'tabulate';
+    bool 'print winner'
+    int 'find min'
+    bool 'is tie'; integer min
+    void 'eliminate'; integer min
+    
+how:
+ 
